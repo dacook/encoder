@@ -1,0 +1,19 @@
+{
+  "name": "encoder",
+  "version": "1.0.0",
+  "description": "Handy encoder/decoder",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "david@redcliffs.net",
+  "license": "ISC",
+  "dependencies": {
+    "locutus": "^2.0.9"
+  },
+  "devDependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
+  }
+}

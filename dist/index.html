@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Encoder</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+  	<form id="form">
+		<p>Enter string to encode or decode:</p>
+		<textarea id="input" rows="5" cols="60">https://www.site.com?param=val&otherparam=another value</textarea>
+
+		<label>
+			<input type="radio" name="type" value="urlencode" checked>
+			urlencode
+		</label>
+		<label>
+			<input type="radio" name="type" value="urldecode">
+			urldecode
+		</label>
+
+		<label>
+			<input type="radio" name="type" value="base64_encode">
+			base64_encode
+		</label>
+		<label>
+			<input type="radio" name="type" value="base64_decode">
+			base64_decode
+		</label>
+
+		<textarea id="output" rows="5" cols="60"></textarea>
+
+		<input type="submit">
+	</form>
+	
+    <script src="main.js"></script>
+  </body>
+</html>
+
