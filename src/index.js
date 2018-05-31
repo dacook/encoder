@@ -1,11 +1,12 @@
+/**
+ *  encoder
+ *  v1.0.0
+ *  david@redcliffs.net
+ */
+
 import url from 'locutus/php/url';
 
 var form = document.getElementById('form');
-
-
-// debugger;
-
-alert('v5');
 
 const run = (e) => {
 	var input = document.getElementById('input');
